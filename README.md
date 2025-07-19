@@ -1,5 +1,5 @@
 # Proyecto-Matematicas-Discretas
-Este proyecto trata de un programa desarrollado en Python que realiza la tabla de verdad de una formula lógica dada. Además convierte la formula en su Forma Normal Disyuntiva (FND). Esto ayuda a facilitar el análisis de una fórmula lógica. 
+Este proyecto trata de un programa desarrollado en Python que realiza la tabla de verdad de una formula lógica bien formada dada. Además convierte la formula en su Forma Normal Disyuntiva (FND). Todo con entrada y salida en formato Latex
 
 La instalación del programa es solo el ".py" y su ejecución. Asegurarse de tener las librerías correctamente instaladas
 
