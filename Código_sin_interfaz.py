@@ -372,29 +372,48 @@ def simplify_formula(formula):
 
     return fnd
 
-# Ejemplo de uso con entrada LaTeX:
-if __name__ == "__main__":
-    expr = "((p \\rightarrow q) \\leftrightarrow (\\neg q \\lor r))"
+def main():
+    print("=== Opciones de Análisis ===")
+    print("1. Solo Tabla de Verdad Original")
+    print("2. Solo Forma Normal Disyuntiva")
+    print("3. Análisis Completo")
 
-    # Procesar fórmula original
+    opcion = input("Selecciona una opción (1/2/3): ").strip()
+    expr = input("Ingresa la fórmula en formato LaTeX e.g. ((p \\rightarrow q) \\leftrightarrow (\\neg q \\lor r)): ").strip()
+
     formula_original = latex_string_to_formula(expr)
-    print("\nFórmula original:", formula_original.to_latex())
 
-    # Tabla de verdad para fórmula original
-    tabla_orig = tabla_verdad(formula_original)
-    print("\nTabla de verdad para fórmula original:")
-    print(tabla_verdad_a_latex(tabla_orig))
+    if opcion == "1":
+        print("\n Tabla de Verdad (Original):")
+        print(tabla_verdad_a_latex(tabla_verdad(formula_original)))
 
-    # Convertir a FND
-    formula_fnd = to_fnd(formula_original)
-    print("\nFórmula en FND:", formula_fnd.to_latex())
+    elif opcion == "2":
+        formula_fnd = to_fnd(formula_original)
+        print("\n Fórmula en Forma Normal Disyuntiva (FND):")
+        print(formula_fnd.to_latex())
 
-    # Simplificar la fórmula
-    formula_simplified = simplify_formula(formula_fnd)
-    if formula_simplified.to_latex() != formula_fnd.to_latex():
-        print("\nFórmula simplificada:", formula_simplified.to_latex())
+    elif opcion == "3":
+        print("\n Fórmula Original:", formula_original.to_latex())
+        print("\n Tabla de Verdad (Original):")
+        print(tabla_verdad_a_latex(tabla_verdad(formula_original)))
 
-    # Tabla de verdad para FND
-    tabla_fnd = tabla_verdad(formula_simplified)
-    print("\nTabla de verdad para fórmula en FND:")
-    print(tabla_verdad_a_latex(tabla_fnd))
+        formula_fnd = to_fnd(formula_original)
+        print("\n Fórmula en Forma Normal Disyuntiva (FND):")
+        print(formula_fnd.to_latex())
+
+        formula_simplificada = simplify_formula(formula_fnd)
+        if formula_simplificada.to_latex() != formula_fnd.to_latex():
+            print("\n Fórmula Simplificada:")
+            print(formula_simplificada.to_latex())
+
+        print("\n Tabla de Verdad (FND):")
+        print(tabla_verdad_a_latex(tabla_verdad(formula_simplificada)))
+
+    else:
+        print("Opción no válida. Intenta con 1, 2 o 3.")
+
+if __name__ == "__main__":
+    main()
+
+
+    
