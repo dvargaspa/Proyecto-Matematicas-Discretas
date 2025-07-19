@@ -10,10 +10,9 @@ Su uso es simple, hay que introducir la fórmula lógica de la que se desea obte
 - 📊 **Tablas de Verdad**: Generación automática con pasos intermedios
 - 🔄 **Transformación a FND**: Conversión paso a paso a Forma Normal Disyuntiva
 - 🎯 **Tres modos de análisis**: Solo tabla de verdad, solo FND, o análisis completo
-- 📱 **Interfaz responsiva**: Funciona en desktop y móvil
-- 📥 **Exportación**: Descarga resultados en LaTeX, CSV o PNG
 
-- También está la posibilidad de usar el programa con inputs en
+## Alternativa más simple
+- También está la posibilidad de usar el programa sin la interfaz gráfica con solo descargar o copiar el archivo Código_sininterfaz.py y ejecutarlo, introduciendo la fórmula lógica en la parte final del ejemplo de uso
 
 ## Operadores Soportados
 
