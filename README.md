@@ -13,6 +13,8 @@ Su uso es simple, hay que introducir la fórmula lógica de la que se desea obte
 - 📱 **Interfaz responsiva**: Funciona en desktop y móvil
 - 📥 **Exportación**: Descarga resultados en LaTeX, CSV o PNG
 
+- También está la posibilidad de usar el programa con inputs en
+
 ## Operadores Soportados
 
 | Operador | LaTeX | Descripción |
