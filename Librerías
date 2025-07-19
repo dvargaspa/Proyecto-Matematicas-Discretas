@@ -1,0 +1,4 @@
+Estas son las librerias necesarias para el funcionamiento del programa
+from abc import ABC, abstractmethod
+re
+itertools
