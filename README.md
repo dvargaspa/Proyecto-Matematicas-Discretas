@@ -11,9 +11,6 @@ Su uso es simple, hay que introducir la fórmula lógica de la que se desea obte
 - 🔄 **Transformación a FND**: Conversión paso a paso a Forma Normal Disyuntiva
 - 🎯 **Tres modos de análisis**: Solo tabla de verdad, solo FND, o análisis completo
 
-## Alternativa más simple
-- También está la posibilidad de usar el programa sin la interfaz gráfica con solo descargar o copiar el archivo Código_sin_interfaz.py y ejecutarlo, introduciendo la fórmula lógica en la parte final del ejemplo de uso
-
 ## Operadores Soportados
 
 | Operador | LaTeX | Descripción |
@@ -24,6 +21,13 @@ Su uso es simple, hay que introducir la fórmula lógica de la que se desea obte
 | → | `\rightarrow` | Implicación |
 | ↔ | `\leftrightarrow` | Bicondicional |
 
+
+## Alternativas
+### La más simple
+- Está la posibilidad de usar el programa sin la interfaz gráfica con solo descargar o copiar el archivo Código_sin_interfaz.py y ejecutarlo en un interprete de python, con inputs en terminal
+### Con interfaz gráfica
+- Con ayuda de una IA implementamos una interfaz web-gráfica al programa con las librerias pandas, streamlit, numpy y plotly
+  
 ## Instalación
 
 ### 1. Verificar la instalación de Python
