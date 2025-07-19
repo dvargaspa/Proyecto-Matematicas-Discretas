@@ -12,7 +12,7 @@ Su uso es simple, hay que introducir la fórmula lógica de la que se desea obte
 - 🎯 **Tres modos de análisis**: Solo tabla de verdad, solo FND, o análisis completo
 
 ## Alternativa más simple
-- También está la posibilidad de usar el programa sin la interfaz gráfica con solo descargar o copiar el archivo Código_sininterfaz.py y ejecutarlo, introduciendo la fórmula lógica en la parte final del ejemplo de uso
+- También está la posibilidad de usar el programa sin la interfaz gráfica con solo descargar o copiar el archivo Código_sin_interfaz.py y ejecutarlo, introduciendo la fórmula lógica en la parte final del ejemplo de uso
 
 ## Operadores Soportados
 
