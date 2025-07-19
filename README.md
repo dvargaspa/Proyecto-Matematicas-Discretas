@@ -1,16 +1,10 @@
 # Proyecto-Matematicas-Discretas
+## Analizador de Lógica Proposicional
 Este proyecto trata de un programa desarrollado en Python que realiza la tabla de verdad de una formula lógica bien formada dada. Además convierte la formula en su Forma Normal Disyuntiva (FND). Todo con entrada y salida en formato Latex
 
 La instalación del programa es solo el ".py" y su ejecución. Asegurarse de tener las librerías correctamente instaladas
 
 Su uso es simple, hay que introducir la fórmula lógica de la que se desea obtener la tabla de verdad, en lo posible asegurarse de que está bien formada y estructurada, luego de esto recibirá la tabla de verdad, acompañada con la fórmula lógica en su Forma Natural Disyuntiva.
-
-
-## 📌 Requerimientos
-
-## 🐧 Método para Linux/Mac
-
-# Analizador de Lógica Proposicional
 
 Una herramienta web interactiva para el análisis de fórmulas de lógica proposicional que permite generar tablas de verdad y transformar fórmulas a Forma Normal Disyuntiva (FND).
 
@@ -52,14 +46,6 @@ Si ves un mensaje como `Python 3.x.x`, ya tienes Python instalado. **Si aparece 
 2. Descarga la versión más reciente de Python (3.11 o superior)
 3. **IMPORTANTE**: Durante la instalación, marca la casilla "Add Python to PATH"
 4. Completa la instalación
-
-#### macOS:
-```bash
-# Usando Homebrew (recomendado)
-brew install python
-
-# O descarga desde python.org
-```
 
 #### Linux (Ubuntu/Debian):
 ```bash
@@ -143,73 +129,9 @@ La aplicación se abrirá automáticamente en tu navegador en `http://localhost:
 └── README.md             # Este archivo
 ```
 
-## Solución de Problemas
-
-### Error: 'python' no se reconoce
-- **Windows**: Reinstala Python marcando "Add Python to PATH"
-- **macOS/Linux**: Usa `python3` en lugar de `python`
-
-### Error: 'pip' no se reconoce
-```bash
-python -m pip install streamlit pandas numpy plotly
-```
-
-### Error: Puerto en uso
-```bash
-streamlit run logic_app.py --server.port 8502
-```
-
-### Problemas con caracteres especiales
-Asegúrate de que tu terminal soporte UTF-8 o usa un editor de texto con codificación UTF-8.
-
-## Alternativas de Instalación
-
-### Opción 1: Anaconda (Recomendado para principiantes)
-1. Descarga [Anaconda](https://anaconda.com/download)
-2. Instala Anaconda
-3. Abre "Anaconda Prompt"
-4. Ejecuta: `conda install streamlit pandas numpy plotly`
-5. Ejecuta: `streamlit run logic_app.py`
-
-### Opción 2: Entorno Virtual (Recomendado para desarrolladores)
-```bash
-# Crear entorno virtual
-python -m venv logic_env
-
-# Activar entorno (Windows)
-logic_env\Scripts\activate
-
-# Activar entorno (macOS/Linux)
-source logic_env/bin/activate
-
-# Instalar dependencias
-pip install streamlit pandas numpy plotly
-
-# Ejecutar aplicación
-streamlit run logic_app.py
-```
-
-### Opción 3: requirements.txt
-Si tienes un archivo `requirements.txt`:
-```bash
-pip install -r requirements.txt
-```
-
-## Contribuir
-
-Las contribuciones son bienvenidas. Por favor:
-1. Haz fork del repositorio
-2. Crea una rama para tu feature
-3. Haz commit de tus cambios
-4. Push a la rama
-5. Abre un Pull Request
-
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+Este proyecto es de código abierto
 
-## Contacto
-
-Si tienes preguntas o encuentras problemas, por favor abre un issue en el repositorio.
 
 
