@@ -8,7 +8,7 @@ Su uso es simple, hay que introducir la fórmula lógica de la que se desea obte
 
 - ✅ **Entrada en LaTeX**: Ingresa fórmulas usando notación LaTeX estándar
 - 📊 **Tablas de Verdad**: Generación automática con pasos intermedios
-- 🔄 **Transformación a FND**: Conversión paso a paso a Forma Normal Disyuntiva
+- 🔄 **Transformación a FND**: Conversión paso a paso a Forma Normal Disyuntiva ademas muestra su respectiva tabla de verdad para verificar la Equivalencia con la formula original 
 - 🎯 **Tres modos de análisis**: Solo tabla de verdad, solo FND, o análisis completo
 
 ## Operadores Soportados
