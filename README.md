@@ -26,7 +26,7 @@ Su uso es simple, hay que introducir la fórmula lógica de la que se desea obte
 ### La más simple
 - Está la posibilidad de usar el programa sin la interfaz gráfica con solo descargar o copiar el archivo Código_sin_interfaz.py y ejecutarlo en un interprete de python, este tiene inputs en terminal y de igual manera tiene las 3 opciones, tablas de verdad, transformación a FND o ambas.
 ### Con interfaz gráfica
-- Con ayuda de una IA implementamos una interfaz web-gráfica al programa con las librerias pandas, streamlit, numpy y plotly, que permite una interacción más facil y amigable con el usuario.
+- Con ayuda de una IA implementamos una interfaz web-gráfica al programa con las librerias pandas, streamlit, numpy y plotly, que permite una interacción más facil y amigable con el usuario, al código original no se le tuvo que cambiar nada, solo se añadió otro módulo con los imports y el código respectivo para la aplicación.
 ## Instalación
 
 ### 1. Verificar la instalación de Python
