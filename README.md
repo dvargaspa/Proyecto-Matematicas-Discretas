@@ -45,7 +45,7 @@ Si ves un mensaje como `Python 3.x.x`, ya tienes Python instalado. **Si aparece 
 1. Ve a [python.org/downloads](https://python.org/downloads/)
 2. Descarga la versión más reciente de Python (3.11 o superior)
 3. **IMPORTANTE**: Durante la instalación, marca la casilla "Add Python to PATH"
-4. Completa la instalación
+4. Completa la instalación.
 
 #### Linux (Ubuntu/Debian):
 ```bash
