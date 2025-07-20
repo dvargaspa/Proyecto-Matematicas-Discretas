@@ -80,7 +80,7 @@ pip install --user streamlit pandas numpy plotly
 #### Opción A: Clonar con Git
 ```bash
 git clone [URL_DEL_REPOSITORIO]
-cd analizador-logica-proposicional
+cd Proyecto_final_def2.1
 ```
 
 #### Opción B: Descargar ZIP
