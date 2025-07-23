@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-import re
 import itertools
 
 # Clase base para todas las fórmulas lógicas (a operador b)
